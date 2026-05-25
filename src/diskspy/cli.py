@@ -104,14 +104,14 @@ def showhlp():
     cmdtab = Table(show_header=False, box=None, pad_edge=False)
     cmdtab.add_column("Command", style="cyan", no_wrap=True)
     cmdtab.add_column("Description")
-    cmdtab.add_row("scan", "Scan a folder and print a TreeSize-like report.")
+    cmdtab.add_row("scan", "Scan a folder and print a report.")
     cmdtab.add_row("tree", "Tree view only.")
     cmdtab.add_row("types", "Types breakdown only.")
     cmdtab.add_row("top", "Top list only.")
-    cmdtab.add_row("ui", "Pane-based TUI.")
+    cmdtab.add_row("ui", "Terminal User Interface.")
     cmdtab.add_row("find", "Find files/folders by name glob.")
     cmdtab.add_row("export", "Export a scan to JSON.")
-    cmdtab.add_row("update", "Self-update DiskSpy (download latest .exe).")
+    cmdtab.add_row("update", "Self-update DiskSpy.")
     cmdtab.add_row("docs", "View docs inside the CLI.")
     con.print(
         Panel(cmdtab, title="Commands", border_style="bright_black", box=box.ROUNDED)
@@ -230,6 +230,7 @@ def scan(
         con.print()
         con.print(
             "[dim]Tip:[/dim] rerun with [bold]--elevate[/bold] to include protected paths."
+            "[dim]Tip:[/dim] want to see more Informations? Use any of the Flags like [bold]--tree[/bold] etc."
         )
 
 

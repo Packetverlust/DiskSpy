@@ -1,6 +1,6 @@
 [project]
 name = "diskspy"
-version = "0.1.1"
+version = "0.1.2"
 description = "DiskSpy — a TreeSize-like storage analyzer CLI for Windows (Python, single EXE-friendly)."
 readme = "README.md"
 requires-python = ">=3.10"

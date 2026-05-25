@@ -47,7 +47,6 @@ def scanpath(path, opts):
     file_cnt: Dict[Path, int] = {}
     dir_cnt: Dict[Path, int] = {}
     children: Dict[Path, List[Tuple[Path, int, int, int]]] = {}
-    # Performance: only collect what we need.
     want_top = int(opts.top) > 0
     file_heap: list[tuple[int, Path, str]] = []
     types = defaultdict(lambda: [0, 0]) if opts.collect_types else None
