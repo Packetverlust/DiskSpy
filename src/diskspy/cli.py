@@ -230,6 +230,8 @@ def scan(
         con.print()
         con.print(
             "[dim]Tip:[/dim] rerun with [bold]--elevate[/bold] to include protected paths."
+        )
+        con.print(
             "[dim]Tip:[/dim] want to see more Informations? Use any of the Flags like [bold]--tree[/bold] etc."
         )
 
