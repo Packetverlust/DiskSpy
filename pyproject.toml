@@ -1,0 +1,25 @@
+[project]
+name = "diskspy"
+version = "0.1.0"
+description = "DiskSpy — a TreeSize-like storage analyzer CLI for Windows (Python, single EXE-friendly)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "DiskSpy contributors" }]
+dependencies = [
+  "typer>=0.12.3",
+  "rich>=13.7.1",
+  "textual>=0.74.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pyinstaller>=6.0",
+]
+
+[project.scripts]
+diskspy = "diskspy.cli:main"
+
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"

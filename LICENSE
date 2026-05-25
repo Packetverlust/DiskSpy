@@ -1,0 +1,100 @@
+DiskSpy Community Fork License (Non-Commercial, Source-Available) v1.0
+
+Copyright (c) 2026 Packetverlust
+
+NOTE
+This license is NOT an OSI-approved “Open Source” license because it restricts
+commercial use. It is “source-available”: you may view, use, modify, and share
+the source under the conditions below.
+
+1. Definitions
+
+“Software” means this repository’s source code, build scripts, documentation,
+and any compiled or packaged forms of the project.
+
+“Fork” means a modified or unmodified copy of the Software, including
+derivative works.
+
+“Distribute” means to provide copies to any third party (publicly or
+privately), including via download links, installers, app stores, package
+registries, or bundled products.
+
+“Commercial Use” means any use of the Software that directly or indirectly
+produces monetary compensation or commercial advantage, including (without
+limitation):
+  - selling or licensing the Software or a Fork;
+  - bundling the Software or a Fork with any paid product or installer;
+  - offering the Software or a Fork as part of a paid service;
+  - using the Software or a Fork in an ad-supported, sponsored, or affiliate-
+    monetized distribution;
+  - gating features behind payment, subscriptions, or donations;
+  - using the Software or a Fork to promote or market a business where access
+    to the Software is tied to revenue.
+
+2. Non-Commercial Permission Grant
+
+Subject to the terms of this license, you are granted a worldwide, royalty-free,
+non-exclusive permission to:
+  - use the Software for personal, educational, or internal purposes;
+  - copy and modify the Software;
+  - Distribute the Software or a Fork for NON-COMMERCIAL purposes only.
+
+3. Forking & Attribution Requirements (when you Distribute)
+
+If you Distribute the Software or any Fork, you MUST:
+  a) Keep this LICENSE file intact and include it with your distribution;
+  b) Clearly state that your work is a FORK of “DiskSpy” by Packetverlust
+     (e.g., in your README, about/help output, website, and release notes);
+  c) Not claim that you are the original author/creator of DiskSpy;
+  d) Provide a clear list of your changes/additions (for example in a CHANGELOG,
+     release notes, or a “Changes” section in your README);
+  e) Provide the complete corresponding SOURCE CODE for the exact version you
+     distribute (including your modifications), in a form that a typical
+     developer can build and run.
+
+4. Share-Alike (Same License)
+
+Any Fork that you Distribute must be licensed under this same license text,
+without adding additional restrictions or removing any requirements.
+
+5. No Commercial Use Without Permission
+
+Commercial Use is NOT permitted unless you obtain prior written permission from
+the copyright holder (Packetverlust).
+
+If you want to run ads, sponsorships, or any other monetization related to the
+Software or a Fork, you must reach out first and obtain permission.
+
+Contact method: open an issue or discussion in the official GitHub repository
+and request commercial permission.
+
+6. No Malware / No Harmful Distribution
+
+You may not Distribute the Software or any Fork that is intentionally designed
+to:
+  - compromise users’ security or privacy;
+  - exfiltrate data without clear, informed consent;
+  - install additional unwanted software;
+  - behave as malware, spyware, ransomware, or similar harmful software.
+
+7. No Endorsement
+
+You may not imply that Packetverlust endorses you or your Fork. You may describe
+your project as a fork and refer to DiskSpy for attribution.
+
+8. Termination
+
+Any violation of this license automatically terminates your permissions. Upon
+termination, you must stop using and distributing the Software and any Forks
+unless you come back into compliance.
+
+9. Disclaimer of Warranty; Limitation of Liability
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY CLAIM,
+DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR
+OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE
+OR OTHER DEALINGS IN THE SOFTWARE.
