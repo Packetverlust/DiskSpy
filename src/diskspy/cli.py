@@ -15,7 +15,7 @@ from diskspy.docs import (
     DOCS_INDEX,
     DOCS_OVERVIEW,
 )
-from diskspy.elevate import isadmin, runasadmin
+from diskspy.elevate import isadmin, runasadmin, attachPc
 from diskspy.render import (
     fmtbytes,
     rsum,
@@ -612,7 +612,14 @@ def update(
 
 
 def main():
+    if isadmin() and os.name == "nt" and not sys.stdout.isatty():
+        try:
+            attachPc()
+        except Exception:
+            pass
+
     sys.argv = preprocess_argv(sys.argv)
+
     if len(sys.argv) == 2 and sys.argv[1] == "__quit__":
         raise SystemExit(0)
     app()
