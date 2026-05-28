@@ -93,6 +93,7 @@ Elevate (UAC):
 ```bash
 diskspy scan C:\ --elevate --depth 4
 ```
+# Note that the current update (v0.1.4) has broken the --elevate flag. Be patient thx
 
 Exclude common junk:
 ```bash
